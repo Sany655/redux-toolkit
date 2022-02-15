@@ -1,3 +1,5 @@
-export default reduceres = {
-    
+const reduceres = {
+
 }
+
+export default reduceres;
