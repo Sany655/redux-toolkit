@@ -9,5 +9,5 @@
 ## first setup
 * create store
 * configure store
-* create slice
+* create slice => actions + reducers
 * call actions from component
