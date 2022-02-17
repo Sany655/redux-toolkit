@@ -10,4 +10,9 @@
 * create store
 * configure store
 * create slice => actions + reducers
-* call actions from component
+* createAsyncThunk for fetch data from server
+* call actions from component -> {
+    useDispatch -> call actions
+    useSelector -> for getting state data from store
+    
+}

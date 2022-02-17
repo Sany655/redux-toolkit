@@ -1,20 +1,20 @@
 import { createSlice } from '@reduxjs/toolkit';
 const initialState = {
-    count: 0
+    count: 5
 }
 
 let counterSlice = createSlice({
     name: 'counter',
     initialState,
     reducers: {
-        plus: (state, payload) => {
+        plus: (state, action) => {
             state.count = state.count + 1
         },
-        minus: (state, payload) => {
+        minus: (state, action) => {
             state.count = state.count - 1
         },
-        plusBy : (state,payload) => {
-            state.count = state.count + payload
+        plusBy : (state,action) => {
+            state.count = state.count + action.payload
         }
     }
 })
