@@ -2,7 +2,7 @@
 
 ## package needed
 * redux
-* @redux/toolkit
+* @reduxjs/toolkit
 
 ## setup redux
 
